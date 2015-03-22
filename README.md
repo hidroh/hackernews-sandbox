@@ -27,5 +27,6 @@ $ ruby server.rb -o 0.0.0.0
 * [http://localhost:4567/_sandbox/empty](http://localhost:4567/_sandbox/empty)
 * [http://localhost:4567/v0/topstories.json](http://localhost:4567/v0/topstories.json) -> `[ ]`
 * [http://localhost:4567/v0/item/1.json](http://localhost:4567/v0/item/1.json) -> `null`
+* [http://localhost:4567/_sandbox/default](http://localhost:4567/_sandbox/default)
 
 Sandbox responses are located under `/responses/<dataset>`, e.g. [`/response/default`](/responses/default), with paths matching corresponding URL segments.
